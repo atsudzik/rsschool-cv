@@ -7,7 +7,7 @@
 Email: <a.tsudzik@gmail.com>  
 Telegram - https://t.me/atsudzik  
 Github - https://github.com/atsudzik 
-Linkedin - https://www.linkedin.com/in/atsudzik/
+Linkedin - https://www.linkedin.com/in/atsudzik/  
 Phone - +48 571 943 370
 
 ---
