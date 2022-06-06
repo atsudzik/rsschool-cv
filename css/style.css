@@ -183,6 +183,8 @@ h3{
 
 }
 /* Skills styles end*/
+
+/* Code styles start*/
 .code__example{
     padding-top: 120px;
 }
@@ -198,8 +200,47 @@ h3{
 .code{
     padding-left: 120px;
     padding-bottom: 120px;
-    font-family: monospace
+    font-family: monospace;
+    
 }
-/* Code styles start*/
 
+/* Code styles end*/
+
+/* Code styles start*/
+footer{
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+.contacts__description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.email{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 63px;
+    padding-bottom: 20px;
+}
+.contact__link{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-right: 30px;
+}    
+.other__channels{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+  }
+  .end{
+      text-align: center;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.7);
+  }
 /* Code styles end*/
