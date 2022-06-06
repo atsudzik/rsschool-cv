@@ -138,14 +138,68 @@ hr{
 h3{
     color: rgba(255, 255, 255, 0.7);
     font-size: 15px;
-    line-height: 15px;
+    line-height: 20px;
     padding-top: 20px;
     padding-bottom: 5px;
 
 }
-.compony__logo{
+.company__logo{
     padding-top: 60px;
     text-align: center;
 }
-/* Header styles start*/
-/* Header styles end*/
+/* Skills styles start*/
+.skill__title{
+    text-align: center;
+    font-family: 'San Francisco';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.skills{
+    padding-top: 60px;
+    white-space: inherit;
+	font-size: 0;
+    max-width: 1000px;
+    display: inline;
+    padding-left: 70px;
+}
+.section__skills{
+    max-width: 1560px;
+    white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+    padding-right: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    padding-bottom: 120px;
+    text-align: center;
+
+}
+/* Skills styles end*/
+.code__example{
+    padding-top: 120px;
+}
+.code__title{
+    text-align: center;
+    font-family: 'San Francisco';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 60px;
+}
+.code{
+    padding-left: 120px;
+    padding-bottom: 120px;
+    font-family: monospace
+}
+/* Code styles start*/
+
+/* Code styles end*/
