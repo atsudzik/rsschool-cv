@@ -1,1 +1,61 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #FFFFFF;
+  background-color: #2A2A2A;
+}
+
+/* Header styles start*/
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu__name{
+  width: 50%;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+.menu__contact{
+  width: 50%;
+  float: right;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+.header__link{
+  font-size: 17px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+  opacity: .75;
+}
+/* Header styles end*/
+
+/* About me styles start*/
+
+/* About me styles end*/
+
+
+
+/* Header styles start*/
+/* Header styles end*/
 
