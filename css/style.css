@@ -51,11 +51,39 @@ body{
 /* Header styles end*/
 
 /* About me styles start*/
+.about__me {
+    text-align: center;
+    padding-top: 100px;
+}
+.avatar{
+    border-radius: 100%;
+}
+.title{
+    padding-top: 20px;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 63px;
+    max-width: 650px;
+    display: inline-block;
 
+}
+.title__description{
+    padding-top: 20px;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 870px;
+    display: inline-block;
+
+}
 /* About me styles end*/
 
 
 
 /* Header styles start*/
 /* Header styles end*/
-
