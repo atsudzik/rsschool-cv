@@ -5,7 +5,7 @@ html{
     box-sizing: inherit;
 }
 body{
-  font-family: 'Inter';
+  font-family: 'San Francisco';
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
@@ -26,6 +26,7 @@ hr{
     top: 0;
     z-index: 100;
     background-color: #2A2A2A; 
+    font-family: 'San Francisco';
   }
 
 .menu{
@@ -52,6 +53,7 @@ hr{
   padding-right: 100px;
   padding-bottom: 20px;
 }
+
 .header__link{
   font-size: 17px;
   line-height: 24px;
@@ -74,18 +76,19 @@ hr{
 }
 .title{
     padding-top: 20px;
-    font-family: 'Avenir Next';
+    font-family: 'San Francisco';
     font-style: normal;
     font-weight: 500;
-    font-size: 52px;
-    line-height: 63px;
+    font-size: 40px;
+    line-height: 50px;
     max-width: 650px;
     display: inline-block;
 
 }
 .title__description{
     padding-top: 20px;
-    font-family: 'Avenir Next';
+    padding-bottom: 130px;
+    font-family: 'San Francisco';
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
@@ -96,8 +99,53 @@ hr{
 
 }
 /* About me styles end*/
+.work__experience{
+    padding-top: 120px;
+}
 
+.title__experience{
+    text-align: center;
+    font-family: 'San Francisco';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.experience__section{
+    padding-top: 60px;
+    white-space: inherit;
+	font-size: 0;
+    max-width: 1000px;
+    display: inline;
+    padding-left: 70px;
+}
+.experience__item{
+    max-width: 1560px;
+    white-space: normal;	
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+    padding-right: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    padding-bottom: 120px;
 
+}
+h3{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 
+}
+.compony__logo{
+    padding-top: 60px;
+    text-align: center;
+}
 /* Header styles start*/
 /* Header styles end*/
