@@ -1,39 +1,41 @@
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
-*, *::before, *::after{
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
-body{
-  font-family: 'San Francisco';
+body {
+  font-family: "San Francisco";
   font-style: normal;
   font-size: 16px;
   line-height: 1.2;
   font-weight: normal;
-  color: #FFFFFF;
-  background-color: #2A2A2A;
+  color: #ffffff;
+  background-color: #2a2a2a;
 }
 
-hr{
-    color: #808080;
-    opacity: 0.15;
+hr {
+  color: #808080;
+  opacity: 0.15;
 }
 
 /* Header styles start*/
 .header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: #2A2A2A; 
-    font-family: 'San Francisco';
-  }
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #2a2a2a;
+  font-family: "San Francisco";
+}
 
-.menu{
+.menu {
   display: flex;
   flex-wrap: wrap;
 }
-.menu__name{
+.menu__name {
   width: 50%;
   font-weight: 500;
   font-size: 17px;
@@ -42,7 +44,7 @@ hr{
   padding-left: 100px;
   padding-bottom: 20px;
 }
-.menu__contact{
+.menu__contact {
   width: 50%;
   float: right;
   font-weight: 400;
@@ -54,193 +56,193 @@ hr{
   padding-bottom: 20px;
 }
 
-.header__link{
+.header__link {
   font-size: 17px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
-.header__link:hover, .header__link:focus, .header__link:active{
-  opacity: .75;
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  opacity: 0.75;
 }
 /* Header styles end*/
 
 /* About me styles start*/
 
 .about__me {
-    text-align: center;
-    padding-top: 100px;
+  padding-top: 100px;
+  text-align: center;
 }
-.avatar{
-    border-radius: 100%;
+.avatar {
+  border-radius: 100%;
 }
-.title{
-    padding-top: 20px;
-    font-family: 'San Francisco';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 50px;
-    max-width: 650px;
-    display: inline-block;
+h1 {
+  padding-top: 20px;
+  max-width: 650px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 63px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title__description {
+  padding-top: 20px;
+  max-width: 870px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  /* or 152% */
 
-}
-.title__description{
-    padding-top: 20px;
-    padding-bottom: 130px;
-    font-family: 'San Francisco';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 32px;
-    color: rgba(255, 255, 255, 0.7);
-    max-width: 870px;
-    display: inline-block;
-
+  text-align: center;
+  color: #686868;
 }
 /* About me styles end*/
-.work__experience{
-    padding-top: 120px;
+.work__experience {
+  padding-top: 120px;
 }
 
-.title__experience{
-    text-align: center;
-    font-family: 'San Francisco';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 50px;
-    padding-right: 70px;
-    padding-left: 70px;
+.title__experience {
+  text-align: center;
+  font-family: "San Francisco";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
-.experience__section{
-    padding-top: 60px;
-    white-space: inherit;
-	font-size: 0;
-    max-width: 1000px;
-    display: inline;
-    padding-left: 70px;
+.experience__section {
+  padding-top: 60px;
+  font-size: 0;
 }
-.experience__item{
-    max-width: 1560px;
-    white-space: normal;	
-	display: inline-block;
-	width: 30%;
-	vertical-align: top;
-    padding-right: 50px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 29px;
-    padding-bottom: 120px;
-
+.experience__item {
+  max-width: 1560px;
+  white-space: normal;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  padding-bottom: 120px;
+  margin-left: 3%;
 }
-h3{
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 15px;
-    line-height: 20px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-
+.experience__item:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
 }
-.company__logo{
-    padding-top: 60px;
-    text-align: center;
+h3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.company__logo {
+  padding-top: 60px;
+  text-align: center;
 }
 /* Skills styles start*/
-.skill__title{
-    text-align: center;
-    font-family: 'San Francisco';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 50px;
-    padding-top: 120px;
-    padding-bottom: 60px;
+.skill__title {
+  text-align: center;
+  font-family: "San Francisco";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 
-.skills{
-    padding-top: 60px;
-    white-space: inherit;
-	font-size: 0;
-    max-width: 1000px;
-    display: inline;
-    padding-left: 70px;
+.skills {
+  padding-top: 60px;
+  font-size: 0;
 }
-.section__skills{
-    max-width: 1560px;
-    white-space: normal;	
-	display: inline-block;
-	width: 30%;
-	vertical-align: top;
-    padding-right: 50px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 29px;
-    padding-bottom: 120px;
-    text-align: center;
-
+.section__skills {
+  max-width: 1560px;
+  white-space: normal;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  padding-bottom: 120px;
+  margin-left: 3%;
+}
+.section__skills:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
 }
 /* Skills styles end*/
 
 /* Code styles start*/
-.code__example{
-    padding-top: 120px;
+.code__example {
+  padding-top: 120px;
 }
-.code__title{
-    text-align: center;
-    font-family: 'San Francisco';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 50px;
-    padding-bottom: 60px;
+.code__title {
+  text-align: center;
+  font-family: "San Francisco";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  padding-bottom: 60px;
 }
-.code{
-    padding-left: 120px;
-    padding-bottom: 120px;
-    font-family: monospace;
-    
+.code {
+  padding-left: 120px;
+  padding-bottom: 120px;
+  font-family: monospace;
 }
 
 /* Code styles end*/
 
 /* Code styles start*/
-footer{
-    padding-top: 60px;
-    padding-left: 100px;
-    padding-bottom: 10px;
+footer {
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-bottom: 10px;
 }
-.contacts__description{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 40px;
-    color: rgba(255, 255, 255, 0.7);
+.contacts__description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.7);
 }
-.email{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 52px;
-    line-height: 63px;
-    padding-bottom: 20px;
+.email {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 63px;
+  padding-bottom: 20px;
 }
-.contact__link{
-    text-decoration: none;
-    color: #FFFFFF;
-    padding-right: 30px;
-}    
-.other__channels{
-    display: flex;
-    flex-wrap: wrap;
+.contact__link {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 30px;
 }
-.contact__link:hover, .header__link:focus, .header__link:active{
-    opacity: .75;
-  }
-  .end{
-      text-align: center;
-    padding-top: 20px;
-    color: rgba(255, 255, 255, 0.7);
-  }
+.other__channels {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact__link:hover,
+.header__link:focus,
+.header__link:active {
+  opacity: 0.75;
+}
+.end {
+  text-align: center;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
 /* Code styles end*/
