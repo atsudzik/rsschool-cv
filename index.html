@@ -12,12 +12,14 @@
     <div class="wrapper">
       <header class="header">
         <nav class="menu">
-          <div class="menu__name">
-            <a href="#about__me" class="header__link"> Artur Tsudzik </a>
-          </div>
-          <div class="menu__contact">
-            <a href="#contacts" class="header__link"> Contact </a>
-          </div>
+          <ul class="header__list">
+            <li class="menu__name">
+              <a href="#about__me" class="header__link"> Artur Tsudzik </a>
+            </li>
+            <li class="menu__contact">
+              <a href="#contacts" class="header__link"> Contact </a>
+            </li>
+          </ul>
         </nav>
         <hr align="center" size="1" />
       </header>
@@ -210,28 +212,39 @@
                   >a.tsudzik@gmail.com</a
                 ><br />
               </div>
-              <div class="other__channels">
-                <a href="https://t.me/atsudzik" class="contact__link"
-                  >Telegram</a
-                ><br />
-                <a href="https://github.com/atsudzik" class="contact__link"
-                  >Github</a
-                ><br />
-                <a
-                  href="https://www.linkedin.com/in/atsudzik"
-                  class="contact__link"
-                  >Linkedin</a
-                ><br />
-              </div>
+              <ul class="other__channels">
+                <li class="contact__link">
+                  <a href="https://t.me/atsudzik" class="contact__link"
+                    >Telegram</a
+                  ><br />
+                </li>
+                <li class="contact__link">
+                  <a href="https://github.com/atsudzik" class="contact__link"
+                    >Github</a
+                  ><br />
+                </li>
+                <li class="contact__link">
+                  <a
+                    href="https://www.linkedin.com/in/atsudzik"
+                    class="contact__link"
+                    >Linkedin</a
+                  ><br />
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="rsschool__logo">
-            <img
-              src="./img/svg/rsschool-logo.svg"
-              alt="RS School"
-              width="100px"
-            />
-            <p class="end">© 2022 by Artur Tsudzik</p>
+          <div class="footer__rsschool">
+            <a href="https://rs.school/js-stage0/" class="rschool__logo"
+              ><img
+                src="./img/svg/rs_school_js.svg"
+                alt="RS School"
+                width="150px"
+            /></a>
+            <div class="end">
+              <a href="https://github.com/atsudzik" class="link__github"
+                >© 2022 by Artur Tsudzik</a
+              >
+            </div>
           </div>
         </div>
       </footer>
