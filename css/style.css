@@ -81,6 +81,7 @@ hr {
 }
 .avatar {
   border-radius: 100%;
+  width: 165px;
 }
 h1 {
   padding-top: 20px;
@@ -102,10 +103,9 @@ h1 {
   line-height: 32px;
   margin-left: auto;
   margin-right: auto;
-  /* or 152% */
-
   text-align: center;
   color: #686868;
+  padding-bottom: 120px;
 }
 /* About me styles end*/
 .work__experience {
@@ -142,6 +142,15 @@ h1 {
 .experience__item:last-child {
   margin-right: 0;
   margin-bottom: 0;
+}
+.cloudfresh {
+  height: 60px;
+}
+.alfa__ua {
+  height: 60px;
+}
+.alfa__by {
+  height: 60px;
 }
 h3 {
   color: rgba(255, 255, 255, 0.7);
@@ -250,6 +259,9 @@ footer {
   margin-top: auto;
   margin-bottom: auto;
   color: rgba(255, 255, 255, 0.7);
+}
+.rs_school_js {
+  width: 150px;
 }
 .contact__link:hover,
 .contact__link:focus,
