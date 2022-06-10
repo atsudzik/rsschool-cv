@@ -1,1 +1,287 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.wrapper {
+  padding: 0px 20px;
+}
+body {
+  font-family: "San Francisco";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #2a2a2a;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  color: #808080;
+  opacity: 0.15;
+}
+/* Header styles start*/
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #2a2a2a;
+  font-family: "San Francisco";
+}
 
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu__name {
+  width: 50%;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+.menu__contact {
+  width: 50%;
+  float: right;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.header__link {
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  opacity: 0.75;
+}
+/* Header styles end*/
+
+/* About me styles start*/
+
+.about__me {
+  padding-top: 100px;
+  text-align: center;
+}
+.avatar {
+  border-radius: 100%;
+  width: 165px;
+}
+h1 {
+  padding-top: 20px;
+  max-width: 650px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 63px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title__description {
+  padding-top: 20px;
+  max-width: 870px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #686868;
+  padding-bottom: 120px;
+}
+/* About me styles end*/
+.work__experience {
+  padding-top: 120px;
+}
+
+.title__experience {
+  text-align: center;
+  font-family: "San Francisco";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.experience__section {
+  padding-top: 60px;
+  font-size: 0;
+}
+.experience__item {
+  max-width: 1560px;
+  white-space: normal;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  padding-bottom: 120px;
+  margin-left: 3%;
+}
+.experience__item:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.cloudfresh {
+  height: 60px;
+}
+.alfa__ua {
+  height: 60px;
+}
+.alfa__by {
+  height: 60px;
+}
+h3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  line-height: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.company__logo {
+  padding-top: 60px;
+  text-align: center;
+}
+/* Skills styles start*/
+.skill__title {
+  text-align: center;
+  font-family: "San Francisco";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.skills {
+  padding-top: 60px;
+  font-size: 0;
+}
+.section__skills {
+  max-width: 1560px;
+  white-space: normal;
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+  padding-bottom: 120px;
+  margin-left: 3%;
+}
+.section__skills:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+/* Skills styles end*/
+
+/* Code styles start*/
+.code__example {
+  padding-top: 120px;
+}
+.code__title {
+  text-align: center;
+  font-family: "San Francisco";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  padding-bottom: 60px;
+}
+.code {
+  padding-bottom: 120px;
+  font-family: monospace;
+}
+
+/* Code styles end*/
+
+/* Code styles start*/
+footer {
+  padding: 60px 100px;
+}
+.footer__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contacts__description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.email {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 63px;
+  padding-bottom: 20px;
+}
+.contact__link {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 30px;
+}
+.other__channels {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__contacts {
+  width: 80%;
+}
+.footer__rsschool {
+  width: 20%;
+  float: right;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: rgba(255, 255, 255, 0.7);
+}
+.rs_school_js {
+  width: 150px;
+}
+.contact__link:hover,
+.contact__link:focus,
+.contact__link:active {
+  opacity: 0.75;
+}
+.link__github:hover,
+.link__github:focus,
+.link__github:active {
+  opacity: 0.75;
+}
+.rschool__logo:hover,
+.rschool__logo:focus,
+.rschool__logo:active {
+  opacity: 0.6;
+}
+.end {
+  padding-top: 10px;
+}
+.link__github {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* Code styles end*/
