@@ -18,11 +18,9 @@ Hi! I'm Artur Tsudzik. I'm Project Manager at Cloudfresh. But I want to learn ja
 
 ## Skills
 
-- HTML (basic)
-- CSS (basic)
-- Zendesk - Support, Chat, Guide, Explore, SunCo
-- Asana
-- Jira
+- HTML
+- CSS
+- JS (basic)
 
 ---
 
